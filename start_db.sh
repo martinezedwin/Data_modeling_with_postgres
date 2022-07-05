@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# mkdir -p /tmp/postgresql
 docker stop postgresql
 docker rm postgresql
 docker run -d \
